@@ -1,3 +1,11 @@
+##It now streams images to ~/Documents/Pixymon/image_stream.png (path can be changed easily)
+
+
+
+
+
+
+
 libpixyusb API Reference:
 
 http://charmedlabs.github.io/pixy/index.html
