@@ -1,4 +1,4 @@
-##It now streams images to ~/Documents/Pixymon/image_stream.png (path can be changed easily)
+## It now streams images to ~/Documents/Pixymon/image_stream.png (path can be changed easily)
 
 
 
