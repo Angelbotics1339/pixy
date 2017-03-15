@@ -20,7 +20,7 @@
 
 const QString uniqueFilename(const QDir &dir, const QString &filebase, const QString &extension)
 {
-    //this makes it save to the same image every time
+    //hack to make it save to the same image every time
 
     QFileInfo testFile(dir, filebase + "_stream" + "." + extension);
     return testFile.absoluteFilePath();
