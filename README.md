@@ -1,10 +1,10 @@
 ## It now streams images to ~/Documents/Pixymon/image_stream.png (path can be changed easily)
 
+### It has been built for OSX and Linux, the .app package and executable binary are in the build directory.
 
 
 
-
-
+🎉  **500 commits!** 🎉
 
 libpixyusb API Reference:
 
