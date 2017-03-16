@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'console.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'console.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.7. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -30,30 +30,30 @@ static const uint qt_meta_data_ConsoleWidget[] = {
        2,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      14,   32,   37,   37, 0x05,
-      38,   58,   37,   37, 0x05,
+      20,   15,   14,   14, 0x05,
+      42,   38,   14,   14, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      62,   84,   37,   37, 0x0a,
-      95,  110,   37,   37, 0x2a,
-     115,  110,   37,   37, 0x0a,
-     132,  110,   37,   37, 0x0a,
-     147,  110,   37,   37, 0x0a,
-     163,   37,   37,   37, 0x0a,
-     172,  110,   37,   37, 0x0a,
-     186,  204,   37,   37, 0x0a,
-     211,   37,   37,   37, 0x08,
+      73,   62,   14,   14, 0x0a,
+     100,   95,   14,   14, 0x2a,
+     115,   95,   14,   14, 0x0a,
+     132,   95,   14,   14, 0x0a,
+     147,   95,   14,   14, 0x0a,
+     163,   14,   14,   14, 0x0a,
+     172,   95,   14,   14, 0x0a,
+     193,  186,   14,   14, 0x0a,
+     211,   14,   14,   14, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_ConsoleWidget[] = {
-    "ConsoleWidget\0textLine(QString)\0line\0"
-    "\0controlKey(Qt::Key)\0key\0print(QString,QColor)\0"
-    "text,color\0print(QString)\0text\0"
+    "ConsoleWidget\0\0line\0textLine(QString)\0"
+    "key\0controlKey(Qt::Key)\0text,color\0"
+    "print(QString,QColor)\0text\0print(QString)\0"
     "command(QString)\0error(QString)\0"
     "prompt(QString)\0prompt()\0type(QString)\0"
-    "acceptInput(bool)\0accept\0handleTimer()\0"
+    "accept\0acceptInput(bool)\0handleTimer()\0"
 };
 
 void ConsoleWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

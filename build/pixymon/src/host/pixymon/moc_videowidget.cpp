@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'videowidget.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'videowidget.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.7. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -30,20 +30,20 @@ static const uint qt_meta_data_VideoWidget[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      12,   39,   58,   58, 0x05,
+      32,   13,   12,   12, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      59,   85,   58,   58, 0x0a,
-     103,  139,   58,   58, 0x0a,
+      77,   59,   12,   12, 0x0a,
+     108,  103,   12,   12, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_VideoWidget[] = {
-    "VideoWidget\0selection(int,int,int,int)\0"
-    "x0,y0,width,height\0\0handleImage(QImage,uchar)\0"
-    "image,renderFlags\0acceptInput(VideoWidget::InputMode)\0"
-    "mode\0"
+    "VideoWidget\0\0x0,y0,width,height\0"
+    "selection(int,int,int,int)\0image,renderFlags\0"
+    "handleImage(QImage,uchar)\0mode\0"
+    "acceptInput(VideoWidget::InputMode)\0"
 };
 
 void VideoWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

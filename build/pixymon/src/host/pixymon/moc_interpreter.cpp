@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'interpreter.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'interpreter.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.7. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -30,47 +30,45 @@ static const uint qt_meta_data_Interpreter[] = {
       14,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      12,   26,   32,   32, 0x05,
-      33,   57,   32,   32, 0x05,
-      68,   85,   32,   32, 0x25,
-      90,   85,   32,   32, 0x05,
-     105,   85,   32,   32, 0x05,
-     129,   85,   32,   32, 0x05,
-     145,  180,   32,   32, 0x05,
-     185,  205,   32,   32, 0x05,
-     212,  235,   32,   32, 0x05,
-     248,  289,   32,   32, 0x05,
-     312,  349,   32,   32, 0x05,
-     366,  396,   32,   32, 0x05,
-     404,   32,   32,   32, 0x05,
-     418,  456,   32,   32, 0x05,
+      19,   13,   12,   12, 0x05,
+      44,   33,   12,   12, 0x05,
+      73,   68,   12,   12, 0x25,
+      90,   68,   12,   12, 0x05,
+     105,   68,   12,   12, 0x05,
+     129,   68,   12,   12, 0x05,
+     150,  145,   12,   12, 0x05,
+     192,  185,   12,   12, 0x05,
+     225,  212,   12,   12, 0x05,
+     271,  248,   12,   12, 0x05,
+     329,  312,   12,   12, 0x05,
+     374,  366,   12,   12, 0x05,
+     404,   12,   12,   12, 0x05,
+     441,  418,   12,   12, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-     479,  499,   32,   32, 0x08,
-     503,  520,   32,   32, 0x08,
-     528,  561,   32,   32, 0x08,
+     483,  479,   12,   12, 0x08,
+     511,  503,   12,   12, 0x08,
+     547,  528,   12,   12, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_Interpreter[] = {
-    "Interpreter\0runState(int)\0state\0\0"
-    "textOut(QString,QColor)\0text,color\0"
-    "textOut(QString)\0text\0error(QString)\0"
+    "Interpreter\0\0state\0runState(int)\0"
+    "text,color\0textOut(QString,QColor)\0"
+    "text\0textOut(QString)\0error(QString)\0"
     "consoleCommand(QString)\0prompt(QString)\0"
-    "videoInput(VideoWidget::InputMode)\0"
-    "mode\0enableConsole(bool)\0enable\0"
-    "connected(Device,bool)\0device,state\0"
+    "mode\0videoInput(VideoWidget::InputMode)\0"
+    "enable\0enableConsole(bool)\0device,state\0"
+    "connected(Device,bool)\0index,action,scriptlet\0"
     "actionScriptlet(int,QString,QStringList)\0"
-    "index,action,scriptlet\0"
-    "actionScriptlet(QString,QStringList)\0"
-    "action,scriptlet\0parameter(QString,QByteArray)\0"
-    "id,data\0paramLoaded()\0"
+    "action,scriptlet\0actionScriptlet(QString,QStringList)\0"
+    "id,data\0parameter(QString,QByteArray)\0"
+    "paramLoaded()\0major,minor,build,type\0"
     "version(ushort,ushort,ushort,QString)\0"
-    "major,minor,build,type\0controlKey(Qt::Key)\0"
-    "key\0command(QString)\0command\0"
+    "key\0controlKey(Qt::Key)\0command\0"
+    "command(QString)\0x0,y0,width,height\0"
     "handleSelection(int,int,int,int)\0"
-    "x0,y0,width,height\0"
 };
 
 void Interpreter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

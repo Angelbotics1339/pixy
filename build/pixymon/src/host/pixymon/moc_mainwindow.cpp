@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.7. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -30,39 +30,37 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      11,   31,   37,   37, 0x08,
-      38,   67,   37,   37, 0x08,
-      80,   37,   37,   37, 0x08,
-      96,  139,   37,   37, 0x08,
-     156,   37,   37,   37, 0x08,
-     175,   37,   37,   37, 0x08,
-     204,   37,   37,   37, 0x08,
-     226,  270,   37,   37, 0x08,
-     293,   37,   37,   37, 0x08,
-     320,   37,   37,   37, 0x08,
-     352,   37,   37,   37, 0x08,
-     389,   37,   37,   37, 0x08,
-     420,   37,   37,   37, 0x08,
-     446,   37,   37,   37, 0x08,
-     478,   37,   37,   37, 0x08,
-     520,   37,   37,   37, 0x08,
-     562,   37,   37,   37, 0x08,
-     588,   37,   37,   37, 0x08,
-     619,   37,   37,   37, 0x08,
+      18,   12,   11,   11, 0x08,
+      51,   38,   11,   11, 0x08,
+      80,   11,   11,   11, 0x08,
+     113,   96,   11,   11, 0x08,
+     156,   11,   11,   11, 0x08,
+     175,   11,   11,   11, 0x08,
+     204,   11,   11,   11, 0x08,
+     249,  226,   11,   11, 0x08,
+     293,   11,   11,   11, 0x08,
+     320,   11,   11,   11, 0x08,
+     352,   11,   11,   11, 0x08,
+     389,   11,   11,   11, 0x08,
+     420,   11,   11,   11, 0x08,
+     446,   11,   11,   11, 0x08,
+     478,   11,   11,   11, 0x08,
+     520,   11,   11,   11, 0x08,
+     562,   11,   11,   11, 0x08,
+     588,   11,   11,   11, 0x08,
+     619,   11,   11,   11, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_MainWindow[] = {
-    "MainWindow\0handleRunState(int)\0state\0"
-    "\0handleConnected(Device,bool)\0"
-    "device,state\0handleActions()\0"
+    "MainWindow\0\0state\0handleRunState(int)\0"
+    "device,state\0handleConnected(Device,bool)\0"
+    "handleActions()\0action,scriptlet\0"
     "handleActionScriptlet(QString,QStringList)\0"
-    "action,scriptlet\0handleLoadParams()\0"
-    "handleConfigDialogFinished()\0"
-    "interpreterFinished()\0"
+    "handleLoadParams()\0handleConfigDialogFinished()\0"
+    "interpreterFinished()\0major,minor,build,type\0"
     "handleVersion(ushort,ushort,ushort,QString)\0"
-    "major,minor,build,type\0"
     "on_actionAbout_triggered()\0"
     "on_actionPlay_Pause_triggered()\0"
     "on_actionDefault_program_triggered()\0"
